@@ -109,6 +109,10 @@ db('foo-table').where('id', id).delete() // silme işleminden etkilenen **kayıt
 
 #### Önemli notlar
 
+- Testleri çalıştırmadan önce proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Otomatik testleri çalıştırmak için `npm test` komutunu kullanın.
+- Test skorlarını NextGen'e `npm run sendresults` komutu ile kaydedin.
+
 - Ek dosyalar oluşturabilirsiniz ancak **mevcut dosyaları veya klasörleri taşımayın veya yeniden adlandırmayın**.
 - `package.json` dosyanızı, ek kitaplıklar kurmak veya ek komut dosyaları eklemek dışında değiştirmeyin.
 - Çözümünüzde en iyi uygulamaları takip etmeniz, temiz ve profesyonel sonuçlar üretmeniz esastır.
